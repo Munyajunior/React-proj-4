@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #fafaf8;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  gap: 10px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 10px 5px 0px 0px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+header > img.chef-logo {
+  height: 50px;
+}
+
+header > span.chef-name {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/****************Form***************/
+
+form.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 60px auto;
+  padding: 8px;
+  width: 100%;
+  max-width: 700px;
+  min-width: 400px;
+  border-radius: 5px;
+}
+
+form > input[type="text"] {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+form > button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #141413;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-family: Inter, sans-serif;
+  cursor: pointer;
+}
+
+form > button[type="submit"]::before {
+  content: "+";
+  margin-right: 5px;
+}
+
+form > button[type="submit"]:hover {
+  background-color: #333;
+}
