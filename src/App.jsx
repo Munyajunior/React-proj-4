@@ -1,7 +1,8 @@
 import "./index.css";
 import Header from "../components/Header";
 import Form from "../components/Form";
-import ComplexStateArray from "../components/Complex";
+// import ComplexStateArray from "../components/Complex";
+// import Object from "../components/Object";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Header />
       <Form />
       {/* <ComplexStateArray /> */}
+      {/* <Object /> */}
     </>
   );
 }
