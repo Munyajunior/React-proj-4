@@ -37,7 +37,7 @@ form.form-container {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin: 60px auto;
+  margin: 40px 20px 20px;
   padding: 8px;
   width: 100%;
   max-width: 700px;
@@ -76,6 +76,34 @@ form > button[type="submit"]:hover {
   background-color: #333;
 }
 
+section > h2 {
+  margin: 20px;
+}
+
+section > div.get-recipe-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #eeeee5;
+  margin: 40px 20px 20px;
+  padding: 8px;
+  width: 100%;
+  max-width: 700px;
+  min-width: 400px;
+}
+
+section > div > button {
+  margin-left: 20px;
+  padding: 8px 16px;
+  background-color: #da775f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-family: Inter, sans-serif;
+  cursor: pointer;
+}
 /* 
 * {
   box-sizing: border-box;
