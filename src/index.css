@@ -104,6 +104,23 @@ section > div > button {
   font-family: Inter, sans-serif;
   cursor: pointer;
 }
+
+section > article.suggested-recipe-container {
+  margin: 20px;
+}
+
+section > article > strong,
+h3,
+p > strong {
+  color: #7a7676;
+}
+
+section > article > ul,
+ol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 /* 
 * {
   box-sizing: border-box;
