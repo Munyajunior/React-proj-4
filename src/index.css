@@ -121,6 +121,17 @@ ol {
   flex-direction: column;
   gap: 10px;
 }
+
+section.suggested-recipe-container {
+  background-color: #eeeee5;
+  margin: 40px 20px 20px;
+  padding: 8px;
+  width: 100%;
+  max-width: 700px;
+  min-width: 400px;
+  border-radius: 5px;
+}
+
 /* 
 * {
   box-sizing: border-box;
