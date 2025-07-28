@@ -1,7 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig, loadEnv } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-})
+  envPrefix: "VITE_",
+  define: {
+    "import.meta.env.VITE_GEMINI_API_KEY": JSON.stringify(
+      loadEnv(import.meta.env, "")["VITE_GEMINI_API_KEY"]
+    ),
+  },
+});
