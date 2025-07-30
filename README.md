@@ -1,3 +1,3 @@
-# React-proj-4
+# Chef Gemini
 
-Dynamic Web App: Chef claude: A website which takes a list of incredients from user and generates a recipe using AI.
+Dynamic Web App: Chef Gemini: A website which takes a list of incredients from user and generates a recipe using Gemini AI.
